@@ -3,65 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E176C5102C7ED7CB00E298AA /* TuistWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C50F2C7ED7CB00E298AA /* TuistWorldApp.swift */; };
-		E176C5122C7ED7CB00E298AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C5112C7ED7CB00E298AA /* ContentView.swift */; };
-		E176C5142C7ED7CC00E298AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176C5132C7ED7CC00E298AA /* Assets.xcassets */; };
-		E176C5172C7ED7CC00E298AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176C5162C7ED7CC00E298AA /* Preview Assets.xcassets */; };
-		E176C5212C7ED7CC00E298AA /* TuistWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C5202C7ED7CC00E298AA /* TuistWorldTests.swift */; };
-		E176C52B2C7ED7CC00E298AA /* TuistWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C52A2C7ED7CC00E298AA /* TuistWorldUITests.swift */; };
-		E176C52D2C7ED7CC00E298AA /* TuistWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C52C2C7ED7CC00E298AA /* TuistWorldUITestsLaunchTests.swift */; };
+		1BF559CF797881E89A33CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6691307CAEC0FA4B0D414 /* LaunchScreen.storyboard */; };
+		591487398CE5AEDCFFF85908 /* TuistWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4368AE815AB376FBC65238F4 /* TuistWorldApp.swift */; };
+		7DE20BC4A7257A838B43B627 /* TuistBundle+TuistWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02688213C7212C87D725F3D /* TuistBundle+TuistWorld.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E176C51D2C7ED7CC00E298AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E176C5042C7ED7CB00E298AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E176C50B2C7ED7CB00E298AA;
-			remoteInfo = TuistWorld;
+/* Begin PBXCopyFilesBuildPhase section */
+		E00225CC2AA0BAC7F38BEF46 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E176C5272C7ED7CC00E298AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E176C5042C7ED7CB00E298AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E176C50B2C7ED7CB00E298AA;
-			remoteInfo = TuistWorld;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E176C50C2C7ED7CB00E298AA /* TuistWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuistWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E176C50F2C7ED7CB00E298AA /* TuistWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistWorldApp.swift; sourceTree = "<group>"; };
-		E176C5112C7ED7CB00E298AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E176C5132C7ED7CC00E298AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E176C5162C7ED7CC00E298AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E176C51C2C7ED7CC00E298AA /* TuistWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuistWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E176C5202C7ED7CC00E298AA /* TuistWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistWorldTests.swift; sourceTree = "<group>"; };
-		E176C5262C7ED7CC00E298AA /* TuistWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuistWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E176C52A2C7ED7CC00E298AA /* TuistWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistWorldUITests.swift; sourceTree = "<group>"; };
-		E176C52C2C7ED7CC00E298AA /* TuistWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20C6691307CAEC0FA4B0D414 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A19DF94B42EBC36650449F /* TuistWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistWorld-Info.plist"; sourceTree = "<group>"; };
+		4368AE815AB376FBC65238F4 /* TuistWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistWorldApp.swift; sourceTree = "<group>"; };
+		A02688213C7212C87D725F3D /* TuistBundle+TuistWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistWorld.swift"; sourceTree = "<group>"; };
+		B56318EFA92F50DA9CCD45A7 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CA56F23528A85A4404636B56 /* TuistWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuistWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5AFD0BFC3DF9E0C53CD75D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E176C5092C7ED7CB00E298AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C5192C7ED7CC00E298AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C5232C7ED7CC00E298AA /* Frameworks */ = {
+		5ECE66AF70606195042BC8C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,72 +46,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E176C5032C7ED7CB00E298AA = {
+		029E7D37A924F9E670EE8ED9 = {
 			isa = PBXGroup;
 			children = (
-				E176C50E2C7ED7CB00E298AA /* TuistWorld */,
-				E176C51F2C7ED7CC00E298AA /* TuistWorldTests */,
-				E176C5292C7ED7CC00E298AA /* TuistWorldUITests */,
-				E176C50D2C7ED7CB00E298AA /* Products */,
+				0CBE28072DA3F8DABE3E6D66 /* Project */,
+				D045034A167FA87F3D01E4CA /* Frameworks */,
+				E7F75420443C71D7D1AE5CF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E176C50D2C7ED7CB00E298AA /* Products */ = {
+		0CBE28072DA3F8DABE3E6D66 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				E176C50C2C7ED7CB00E298AA /* TuistWorld.app */,
-				E176C51C2C7ED7CC00E298AA /* TuistWorldTests.xctest */,
-				E176C5262C7ED7CC00E298AA /* TuistWorldUITests.xctest */,
+				909DF1CCB38161EDF7F125CE /* Configs */,
+				994EF106734A65DBF055ACC0 /* Derived */,
+				ECE4F1845607E8D5E6C1B15E /* Targets */,
 			);
-			name = Products;
+			name = Project;
 			sourceTree = "<group>";
 		};
-		E176C50E2C7ED7CB00E298AA /* TuistWorld */ = {
+		5E35B99D19ACD313D075D167 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E176C50F2C7ED7CB00E298AA /* TuistWorldApp.swift */,
-				E176C5112C7ED7CB00E298AA /* ContentView.swift */,
-				E176C5132C7ED7CC00E298AA /* Assets.xcassets */,
-				E176C5152C7ED7CC00E298AA /* Preview Content */,
+				A02688213C7212C87D725F3D /* TuistBundle+TuistWorld.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6B75AAA47B96E7AAE571726F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4368AE815AB376FBC65238F4 /* TuistWorldApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		909DF1CCB38161EDF7F125CE /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AFD0BFC3DF9E0C53CD75D /* Debug.xcconfig */,
+				B56318EFA92F50DA9CCD45A7 /* Release.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		994EF106734A65DBF055ACC0 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				C1F416FC8374113655155F7A /* InfoPlists */,
+				5E35B99D19ACD313D075D167 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		AADA4BE1C2B9CDE0F7FF26D5 /* TuistWorld */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA89AB9885C77AD48CF468 /* Resources */,
+				6B75AAA47B96E7AAE571726F /* Sources */,
 			);
 			path = TuistWorld;
 			sourceTree = "<group>";
 		};
-		E176C5152C7ED7CC00E298AA /* Preview Content */ = {
+		C1F416FC8374113655155F7A /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				E176C5162C7ED7CC00E298AA /* Preview Assets.xcassets */,
+				34A19DF94B42EBC36650449F /* TuistWorld-Info.plist */,
 			);
-			path = "Preview Content";
+			path = InfoPlists;
 			sourceTree = "<group>";
 		};
-		E176C51F2C7ED7CC00E298AA /* TuistWorldTests */ = {
+		D045034A167FA87F3D01E4CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E176C5202C7ED7CC00E298AA /* TuistWorldTests.swift */,
 			);
-			path = TuistWorldTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E176C5292C7ED7CC00E298AA /* TuistWorldUITests */ = {
+		E7F75420443C71D7D1AE5CF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E176C52A2C7ED7CC00E298AA /* TuistWorldUITests.swift */,
-				E176C52C2C7ED7CC00E298AA /* TuistWorldUITestsLaunchTests.swift */,
+				CA56F23528A85A4404636B56 /* TuistWorld.app */,
 			);
-			path = TuistWorldUITests;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE4F1845607E8D5E6C1B15E /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				AADA4BE1C2B9CDE0F7FF26D5 /* TuistWorld */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		F9FA89AB9885C77AD48CF468 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20C6691307CAEC0FA4B0D414 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E176C50B2C7ED7CB00E298AA /* TuistWorld */ = {
+		8CAA3E2855587B9B803B1098 /* TuistWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E176C5302C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorld" */;
+			buildConfigurationList = 54518F6B02482280392AE0C5 /* Build configuration list for PBXNativeTarget "TuistWorld" */;
 			buildPhases = (
-				E176C5082C7ED7CB00E298AA /* Sources */,
-				E176C5092C7ED7CB00E298AA /* Frameworks */,
-				E176C50A2C7ED7CB00E298AA /* Resources */,
+				4E652A1BCB4E767B2A91D8EE /* Sources */,
+				7CA51AC72DEA82E759094EAA /* Resources */,
+				E00225CC2AA0BAC7F38BEF46 /* Embed Frameworks */,
+				5ECE66AF70606195042BC8C6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,165 +165,118 @@
 			);
 			name = TuistWorld;
 			productName = TuistWorld;
-			productReference = E176C50C2C7ED7CB00E298AA /* TuistWorld.app */;
+			productReference = CA56F23528A85A4404636B56 /* TuistWorld.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E176C51B2C7ED7CC00E298AA /* TuistWorldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E176C5332C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorldTests" */;
-			buildPhases = (
-				E176C5182C7ED7CC00E298AA /* Sources */,
-				E176C5192C7ED7CC00E298AA /* Frameworks */,
-				E176C51A2C7ED7CC00E298AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E176C51E2C7ED7CC00E298AA /* PBXTargetDependency */,
-			);
-			name = TuistWorldTests;
-			productName = TuistWorldTests;
-			productReference = E176C51C2C7ED7CC00E298AA /* TuistWorldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E176C5252C7ED7CC00E298AA /* TuistWorldUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E176C5362C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorldUITests" */;
-			buildPhases = (
-				E176C5222C7ED7CC00E298AA /* Sources */,
-				E176C5232C7ED7CC00E298AA /* Frameworks */,
-				E176C5242C7ED7CC00E298AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E176C5282C7ED7CC00E298AA /* PBXTargetDependency */,
-			);
-			name = TuistWorldUITests;
-			productName = TuistWorldUITests;
-			productReference = E176C5262C7ED7CC00E298AA /* TuistWorldUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E176C5042C7ED7CB00E298AA /* Project object */ = {
+		437F8D4DB3F6E3F9F4329368 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					E176C50B2C7ED7CB00E298AA = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					E176C51B2C7ED7CC00E298AA = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = E176C50B2C7ED7CB00E298AA;
-					};
-					E176C5252C7ED7CC00E298AA = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = E176C50B2C7ED7CB00E298AA;
-					};
 				};
 			};
-			buildConfigurationList = E176C5072C7ED7CB00E298AA /* Build configuration list for PBXProject "TuistWorld" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = BAD8584FC766D3A483DB94F6 /* Build configuration list for PBXProject "TuistWorld" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = E176C5032C7ED7CB00E298AA;
-			productRefGroup = E176C50D2C7ED7CB00E298AA /* Products */;
+			mainGroup = 029E7D37A924F9E670EE8ED9;
+			productRefGroup = E7F75420443C71D7D1AE5CF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E176C50B2C7ED7CB00E298AA /* TuistWorld */,
-				E176C51B2C7ED7CC00E298AA /* TuistWorldTests */,
-				E176C5252C7ED7CC00E298AA /* TuistWorldUITests */,
+				8CAA3E2855587B9B803B1098 /* TuistWorld */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E176C50A2C7ED7CB00E298AA /* Resources */ = {
+		7CA51AC72DEA82E759094EAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E176C5172C7ED7CC00E298AA /* Preview Assets.xcassets in Resources */,
-				E176C5142C7ED7CC00E298AA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C51A2C7ED7CC00E298AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C5242C7ED7CC00E298AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1BF559CF797881E89A33CA99 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E176C5082C7ED7CB00E298AA /* Sources */ = {
+		4E652A1BCB4E767B2A91D8EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E176C5122C7ED7CB00E298AA /* ContentView.swift in Sources */,
-				E176C5102C7ED7CB00E298AA /* TuistWorldApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C5182C7ED7CC00E298AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E176C5212C7ED7CC00E298AA /* TuistWorldTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E176C5222C7ED7CC00E298AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E176C52B2C7ED7CC00E298AA /* TuistWorldUITests.swift in Sources */,
-				E176C52D2C7ED7CC00E298AA /* TuistWorldUITestsLaunchTests.swift in Sources */,
+				7DE20BC4A7257A838B43B627 /* TuistBundle+TuistWorld.swift in Sources */,
+				591487398CE5AEDCFFF85908 /* TuistWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E176C51E2C7ED7CC00E298AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E176C50B2C7ED7CB00E298AA /* TuistWorld */;
-			targetProxy = E176C51D2C7ED7CC00E298AA /* PBXContainerItemProxy */;
-		};
-		E176C5282C7ED7CC00E298AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E176C50B2C7ED7CB00E298AA /* TuistWorld */;
-			targetProxy = E176C5272C7ED7CC00E298AA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		E176C52E2C7ED7CC00E298AA /* Debug */ = {
+		31DA71FC1382A146D894E351 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TuistWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorld;
+				PRODUCT_NAME = TuistWorld;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45B6A0F4E6267394E4E25F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TuistWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorld;
+				PRODUCT_NAME = TuistWorld;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D22122CFA153003F3FDA5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5AFD0BFC3DF9E0C53CD75D /* Debug.xcconfig */;
+			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -332,8 +306,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -347,25 +320,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E176C52F2C7ED7CC00E298AA /* Release */ = {
+		9EFC124B96B5B44A5160FAE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56318EFA92F50DA9CCD45A7 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -392,202 +362,51 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E176C5312C7ED7CC00E298AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TuistWorld/Preview Content\"";
-				DEVELOPMENT_TEAM = R4G74AF442;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorld;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E176C5322C7ED7CC00E298AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TuistWorld/Preview Content\"";
-				DEVELOPMENT_TEAM = R4G74AF442;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorld;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E176C5342C7ED7CC00E298AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R4G74AF442;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuistWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuistWorld";
-			};
-			name = Debug;
-		};
-		E176C5352C7ED7CC00E298AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R4G74AF442;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuistWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuistWorld";
-			};
-			name = Release;
-		};
-		E176C5372C7ED7CC00E298AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R4G74AF442;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorldUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TuistWorld;
-			};
-			name = Debug;
-		};
-		E176C5382C7ED7CC00E298AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R4G74AF442;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhoon.TuistWorldUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TuistWorld;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E176C5072C7ED7CB00E298AA /* Build configuration list for PBXProject "TuistWorld" */ = {
+		54518F6B02482280392AE0C5 /* Build configuration list for PBXNativeTarget "TuistWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E176C52E2C7ED7CC00E298AA /* Debug */,
-				E176C52F2C7ED7CC00E298AA /* Release */,
+				31DA71FC1382A146D894E351 /* Debug */,
+				45B6A0F4E6267394E4E25F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		E176C5302C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorld" */ = {
+		BAD8584FC766D3A483DB94F6 /* Build configuration list for PBXProject "TuistWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E176C5312C7ED7CC00E298AA /* Debug */,
-				E176C5322C7ED7CC00E298AA /* Release */,
+				4D22122CFA153003F3FDA5A2 /* Debug */,
+				9EFC124B96B5B44A5160FAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E176C5332C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E176C5342C7ED7CC00E298AA /* Debug */,
-				E176C5352C7ED7CC00E298AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E176C5362C7ED7CC00E298AA /* Build configuration list for PBXNativeTarget "TuistWorldUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E176C5372C7ED7CC00E298AA /* Debug */,
-				E176C5382C7ED7CC00E298AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E176C5042C7ED7CB00E298AA /* Project object */;
+	rootObject = 437F8D4DB3F6E3F9F4329368 /* Project object */;
 }
